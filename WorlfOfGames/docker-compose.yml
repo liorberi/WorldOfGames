@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  flask:
+    build: .
+    image: liorberi/flask
+    ports:
+      - "8777:5000"
+    container_name: flask
